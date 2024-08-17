@@ -2,12 +2,13 @@ import React from 'react';
 import Image from "next/image";
 
 import Logo from "/public/img/mall_logo.png";
+import Gnb from "@/components/Gnb";
 
 function Header(props) {
     return (
         <header className='border-b border-gray-200'>
             <div className='container max-w-screen-xl m-auto'>
-                <div className='flex'>
+                <div className='flex pt-2'>
                     <Image className='w-32' src={Logo} alt='로고' />
                     <div className='flex items-end grow justify-between text-xs text-gray-600 ml-12'>
                         <div>
@@ -23,9 +24,7 @@ function Header(props) {
                         </div>
                     </div>
                 </div>
-                <div>
-
-                </div>
+                <Gnb />
             </div>
         </header>
     );
