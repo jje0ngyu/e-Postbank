@@ -5,6 +5,7 @@ function Footer(props) {
         <footer className='border-t border-gray-200'>
             <div>
                 footer
+                test
             </div>
         </footer>
     );
